@@ -149,7 +149,11 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  display: flex;
+  flex-direction: row;
+  max-height: 33.3%;
+  max-width: 33.3%;
+  align-self: center;
 }
 
 .mexico-red {
