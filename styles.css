@@ -32,11 +32,11 @@ h2 {
 }
 
 .threevert {
-  height: 33.3%;
+  height: 33.33%;
 }
 
 .threehoriz {
-  width: 33.3%;
+  width: 33.33%;
 }
 
 .narrow {
@@ -97,7 +97,7 @@ h2 {
 .red {
   background-color: #EF3340;
 }
-
+ 
 #white {
   background-color: #fff;
 }
@@ -151,15 +151,26 @@ h2 {
 }
 
 .mexico-img {
-  display: flex;
-  flex-direction: row;
-  max-height: 33.3%;
-  max-width: 33.3%;
+  width: 25%;
+  padding: 21px;
+  max-width: 33.33%;
   align-self: center;
 }
 
 .mexico-red {
   background-color: #ce1126;
+}
+
+.label { /* Used CSS Gradient (https://cssgradient.io/) just to mess around. lol */
+  /* background: -webkit-linear-gradient(90deg, rgba(255,0,0,1) 16%, rgba(86,255,0,1) 49%, rgba(12,0,255,1) 81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: #3457f3;
+}
+
+.label:hover {
+  font-size: 30px;
+  color:gold;
 }
 
 /* QUESTION 6 */
