@@ -39,9 +39,13 @@ h2 {
   width: 33.33%;
 }
 
+.greecevert {
+  height: 11.11%
+}
+
 .narrow {
   height: 17.5%;
-}
+} 
 
 .wide {
   height: 30%;
@@ -104,6 +108,10 @@ h2 {
 
 .light-blue{
   background-color: #00A3E0;
+}
+
+.greek-blue{
+  background-color: #001489;
 }
 
 /* BEGIN QUESTION 2 */
@@ -184,19 +192,19 @@ h2 {
 }
 
 /* For margin practice */
-.flag1 {
+#flag1 {
   background-color: red;
-  /* TODO */
+  margin-right: 5px;
 }
 
-.flag2 {
+#flag2 {
   background-color: blue;
-  /* TODO */
+  margin-left: 5px;
 }
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  padding: 30px;
 }
